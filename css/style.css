@@ -1,0 +1,138 @@
+*{ margin:0; padding:0; box-sizing:border-box; }
+
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+}
+
+.hr{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(213, 213, 213);
+}
+.space-20{
+    height: 20px;
+    width: 100%;
+}
+
+.space-50{
+    height: 50px;
+    width: 100%;
+}
+
+.bg-white{
+    background-color: white;
+}
+.bg-black{
+    background-color: black;
+}
+
+.bg-now{
+    background-color:#C32148 ;
+}
+
+.logo-img{
+    width: 150px;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.active{
+    color: #C32148 !important; 
+}
+
+.nav-link:hover{
+    color: #FFBF00 !important;
+}
+
+.hero{
+    height: 60vh;
+}
+
+.text-now{
+    color: #C32148 ;
+}
+
+
+.text-small{
+    font-size: 0.9em;
+}
+
+.text-grey{
+    color: #403E34;
+}
+.wave-img{
+    height: 40vh;
+    width: 100%;
+}
+
+.btn-now{
+    border: 2px solid #C32148;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: all 0.5s;
+    text-decoration: none;
+    
+}
+.btn-now:hover{
+    cursor: pointer;
+    /* text-shadow: 0px 3px 27px  #C32148 ; */
+    color: #FFBF00;
+    border: 2px solid #FFBF00;
+    text-decoration: none;
+}
+
+.phone-1{
+    max-width: 230px;
+    transition: all 0.3s;
+}
+
+.phone-1:hover{
+   transform: translate(-10px,-10px);
+}
+
+.phone-group{
+
+}
+
+.app-card{
+    width: 100%;
+    box-shadow: 0px 3px 27px  #00000027;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: all 0.2s;
+
+}
+
+@media screen and (min-width:700px ){
+    .app-card-adjust{
+        max-width: 400px;
+    }
+}
+.app-card:hover{
+    box-shadow: 0px 3px 10px  #00000068;
+}
+
+.app-ico-img{
+    width: 80px;
+}
+
+.team-1{
+    width: 300px;
+}
+
+
+
+/* =============================== */
+
+.address-card{
+
+}
+
