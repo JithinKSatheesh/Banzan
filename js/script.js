@@ -75,23 +75,23 @@ function removeText (amount) {
 
 // Typing script ⌨
 
-var text_name = 'We are BANZAN.'
-var text_love = 'We make games.'
-var text_travel ='We are creative.'
+var text_name = 'We make….Awesome Games'
+var text_love = 'We make…. Valuable Apps'
+var text_travel ='We tell…. Digital Stories'
 var text_photo ='We make games.'
 var text_study ='We are BANZAN.'
 
 function typeLoop() {
   typeText(' ') 
+    .then(() => typeText(text_name))
+    .then(() => wait(2000))
+    .then(()=> removeText(text_name.length))
     .then(()=> typeText(text_love))
-    .then(() => wait(500))
+    .then(() => wait(2000))
     .then(() => removeText(text_love.length))
     .then(()=> typeText(text_travel))
     .then(() => wait(2000))
     .then(() => removeText(text_travel.length))
-    .then(()=> typeText(text_photo))
-    .then(() => wait(2000))
-    .then(() => removeText(text_photo.length))
     .then(typeLoop)
 }
 
@@ -99,9 +99,6 @@ wait(300).then(() => {
   clearText()
   typeText('Hi there!<br> ')
   .then(() => wait(500))
-  .then(() => typeText(text_name))
-  .then(() => wait(500))
-  .then(()=> removeText(text_name.length))
   .then(typeLoop)
 })
 
