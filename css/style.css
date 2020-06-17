@@ -79,7 +79,7 @@ body{
     }
     .wave-img{
         height: 50vh;
-        background-image: url("/img/vodoo.jpg");
+        background-image: url("../img/vodoo.jpg");
         background-size: cover;
         background-repeat: repeat-x;
     }
