@@ -34,6 +34,18 @@ body{
     background-color:#C32148 ;
 }
 
+.text-now{
+    color: #C32148 ;
+}
+
+.text-small{
+    font-size: 0.9em;
+}
+
+.text-grey{
+    color: #403E34;
+}
+
 .logo-img{
     width: 150px;
 }
@@ -51,24 +63,26 @@ body{
 }
 
 .hero{
-    height: 60vh;
-}
-
-.text-now{
-    color: #C32148 ;
-}
-
-
-.text-small{
-    font-size: 0.9em;
-}
-
-.text-grey{
-    color: #403E34;
+    height: 50vh;
 }
 .wave-img{
-    height: 40vh;
-    width: 100%;
+    height: 50vh;
+    background-image: url("/img/vodoo.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+@media screen and (max-width:500px)
+{
+    .hero{
+        height: 50vh;
+    }
+    .wave-img{
+        height: 50vh;
+        background-image: url("/img/vodoo.jpg");
+        background-size: cover;
+        background-repeat: repeat-x;
+    }
 }
 
 .btn-now{
@@ -90,6 +104,17 @@ body{
 
 .phone-1{
     max-width: 230px;
+    max-height: 350px;
+    transition: all 0.3s;
+}
+
+.phone-3{
+    max-width: 250px;
+    transition: all 0.3s;
+}
+
+.phone-4{
+    max-width: 300px;
     transition: all 0.3s;
 }
 
@@ -106,7 +131,8 @@ body{
     box-shadow: 0px 3px 27px  #00000027;
     padding: 10px;
     border-radius: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     transition: all 0.2s;
 
 }

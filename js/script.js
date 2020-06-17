@@ -97,7 +97,7 @@ function typeLoop() {
 
 wait(300).then(() => {
   clearText()
-  typeText('Hi there!<br> ')
+  typeText(' ')
   .then(() => wait(500))
   .then(typeLoop)
 })
