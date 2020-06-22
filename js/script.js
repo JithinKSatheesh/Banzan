@@ -77,9 +77,9 @@ function removeText (amount) {
 
 var text_name = 'We make….Awesome Games'
 var text_love = 'We make…. Valuable Apps'
-var text_travel ='We tell…. Digital Stories'
-var text_photo ='We make games.'
-var text_study ='We are BANZAN.'
+var text_travel ='We gamify… Customer Journeys'
+var text_photo ='We create...Long term Customer Engagement'
+var text_study ='We tell…. Digital Stories'
 
 function typeLoop() {
   typeText(' ') 
@@ -92,6 +92,12 @@ function typeLoop() {
     .then(()=> typeText(text_travel))
     .then(() => wait(2000))
     .then(() => removeText(text_travel.length))
+    .then(()=> typeText(text_photo))
+    .then(() => wait(2000))
+    .then(() => removeText(text_photo.length))
+    .then(()=> typeText(text_study))
+    .then(() => wait(2000))
+    .then(() => removeText(text_study.length))
     .then(typeLoop)
 }
 

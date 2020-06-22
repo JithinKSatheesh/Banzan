@@ -129,6 +129,12 @@ body{
     text-decoration: none;
 }
 
+@media screen and (max-width:500px){
+    .btn-now{
+        font-size: 0.8em;
+    }
+}
+
 .phone-1{
     max-width: 400px;
     width: 100%;
