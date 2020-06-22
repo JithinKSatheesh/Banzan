@@ -6,6 +6,9 @@ body{
     padding: 0;
     box-sizing:border-box;
     overflow-x: hidden;
+    /* font-family: 'Dosis', sans-serif !important;  */
+
+    font-family: 'Titillium Web', sans-serif !important;
 }
 
 .hr{
@@ -30,6 +33,14 @@ body{
     background-color: black;
 }
 
+.rounded-r{
+    border-radius: 20px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
 .bg-now{
     background-color:#C32148 ;
 }
@@ -37,6 +48,11 @@ body{
 .text-now{
     color: #C32148 ;
 }
+.text-yellow{
+    color: #FFBF00  ;
+}
+
+
 
 .text-small{
     font-size: 0.9em;
@@ -67,7 +83,7 @@ body{
 }
 .wave-img{
     height: 50vh;
-    background-image: url("../img/vodoo.jpg");
+    background-image: url("../img/mountain.png");
     background-size: contain;
     background-repeat: repeat-x;
 }
@@ -79,42 +95,55 @@ body{
     }
     .wave-img{
         height: 50vh;
-        background-image: url("../img/vodoo.jpg");
+        background-image: url("../img/mountain.png");
         background-size: cover;
         background-repeat: repeat-x;
     }
 }
 
+.badge-now{
+    border: 2px solid #C32148;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #C32148;
+    color: white;
+    font-size: 0.8em;
+}
+
 .btn-now{
     border: 2px solid #C32148;
     padding: 10px;
-    border-radius: 5px;
-    font-size: 1em;
-    transition: all 0.5s;
+    border-radius: 15px;
+    font-size: 0.9em;
+
     text-decoration: none;
     
 }
 .btn-now:hover{
     cursor: pointer;
     /* text-shadow: 0px 3px 27px  #C32148 ; */
-    color: #FFBF00;
+    color: white;
+    background-color: #FFBF00;
     border: 2px solid #FFBF00;
     text-decoration: none;
 }
 
 .phone-1{
-    max-width: 230px;
-    max-height: 350px;
+    max-width: 400px;
+    width: 100%;
+    /* max-height: 350px; */
     transition: all 0.3s;
 }
 
 .phone-3{
-    max-width: 250px;
+    max-width: 400px;
+    width: 100%;
     transition: all 0.3s;
 }
 
 .phone-4{
-    max-width: 300px;
+    max-width: 400px;
+    width: 100%;
     transition: all 0.3s;
 }
 
@@ -122,15 +151,13 @@ body{
    transform: translate(-10px,-10px);
 }
 
-.phone-group{
 
-}
 
 .app-card{
     width: 100%;
     box-shadow: 0px 3px 27px  #00000027;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
     transition: all 0.2s;
