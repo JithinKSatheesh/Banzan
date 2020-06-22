@@ -84,8 +84,9 @@ body{
 .wave-img{
     height: 50vh;
     background-image: url("../img/mountain.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: repeat-x;
+    
 }
 
 @media screen and (max-width:500px)
