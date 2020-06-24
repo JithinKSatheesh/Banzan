@@ -68,6 +68,7 @@ body{
 
 .nav-link{
     color: black !important;
+
 }
 
 .active{
@@ -104,11 +105,11 @@ body{
 
 .badge-now{
     border: 2px solid #C32148;
-    padding: 5px;
+    padding: 8px;
     border-radius: 20px;
-    background-color: #C32148;
-    color: white;
-    font-size: 0.8em;
+    background-color: white;
+    color: #C32148;
+    font-size: 0.9em;
 }
 
 .btn-now{
@@ -143,7 +144,7 @@ body{
 }
 
 .phone-3{
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
     transition: all 0.3s;
 }
