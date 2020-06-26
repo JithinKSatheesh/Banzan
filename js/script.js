@@ -75,11 +75,11 @@ function removeText (amount) {
 
 // Typing script ⌨
 
-var text_name = 'We make….Awesome Games'
-var text_love = 'We make…. Valuable Apps'
-var text_travel ='We gamify… Customer Journeys'
-var text_photo ='We create...Long term Customer Engagement'
-var text_study ='We tell…. Digital Stories'
+var text_name = 'We make....<span class="text-now">Awesome Games</span>'
+var text_love = 'We make....<span class="text-now">Valuable Apps</span>'
+var text_travel ='We gamify....<span class="text-now" >Customer Journeys</span>'
+var text_photo ='We create....<span class="text-now">Long term Customer Engagement</span>'
+var text_study ='We tell....<span class="text-now">Digital Stories</span>'
 
 function typeLoop() {
   typeText(' ') 
