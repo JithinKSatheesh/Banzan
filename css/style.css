@@ -193,7 +193,17 @@ body{
 
 /* =============================== */
 
-.address-card{
-
+.Philosophy {
+    width: 100%;
+    max-width: 300px;
 }
 
+nav{
+    border-bottom: 2px solid #c9c9c9;
+}
+
+@media screen and (max-width:766px){
+    .Philosophy {
+        max-width: 766px;
+    }
+}
