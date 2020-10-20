@@ -120,7 +120,13 @@ body{
 
     text-decoration: none;
     
+    
 }
+
+.btn-now:hover svg{
+    fill:white;
+}
+
 .btn-now:hover{
     cursor: pointer;
     /* text-shadow: 0px 3px 27px  #C32148 ; */
@@ -199,7 +205,8 @@ body{
 }
 
 nav{
-    border-bottom: 2px solid #c9c9c9;
+    /* border-bottom: 2px solid #c9c9c9; */
+    box-shadow: 0px 0px 20px grey;
 }
 
 @media screen and (max-width:766px){
